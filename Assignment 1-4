@@ -1,0 +1,40 @@
+#Problem 1  Block System call : 
+
+#Problem 2 play with directory:
+mkdir ''$'\n' (directory with no name)
+mkdir -okgoogle
+
+#Problem 3
+mkdir -p A/{B/{G/K/Reboot.txt},{H/J/Reboot.txt}},{C/{I/J/Reboot.txt},{J/L/Reboot.txt}},{D/{F/L/Reboot.txt},{E/M/Reboot.txt}}
+tree A
+
+#Problem 4
+1.create two users name jack and Jill  from command line
+useradd jack
+useradd Jill
+2.login with jack user and create a file name jack.txt using vim editor and write "hello jack"
+Steps:
+su -jack
+vim jack.txt
+Type:
+"hello jack"
+and then type :wq to save and exit
+3.from jack user also create two directories name jack1 & jack2 
+mkdir jack1
+mkdir jack2
+4.now login from Jill user and create a file. Jill.txt using vim editor and write "hey jiil"
+su -jill
+vim Jill.txt
+Type:
+"hey jill"
+and then type :wq to save and exit
+5.from Jill also create two directoires named jill1 & jill2
+mkdir jill1
+mkdir jill2
+
+
+
+
+
+
+
